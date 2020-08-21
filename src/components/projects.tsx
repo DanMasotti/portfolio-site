@@ -1,14 +1,10 @@
-import React, { useState, useEffect } from "react";
+import React from "react";
 import {
-  Tabs,
-  Tab,
   Grid,
   Cell,
   Card,
   CardActions,
   Button,
-  CardMenu,
-  IconButton,
   CardTitle,
   CardText
 } from "react-mdl";
@@ -89,7 +85,9 @@ export const Projects: React.FunctionComponent = (): JSX.Element => {
                     simple.
                   </CardText>
                   <CardActions border>
-                    <Button colored>Coming Soon!</Button>
+                    <Button colored>
+                      <a>Coming Soon!</a>
+                    </Button>
                   </CardActions>
                 </Card>
               </div>
