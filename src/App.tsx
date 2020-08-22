@@ -2,11 +2,11 @@ import React from "react";
 import "./App.css";
 import { Layout, Header, Navigation, Drawer, Content } from "react-mdl";
 import { Main } from "./components/main";
-import { Link, BrowserRouter } from "react-router-dom";
+import { Link, HashRouter } from "react-router-dom";
 
 export const App: React.FunctionComponent = () => {
   return (
-    <BrowserRouter>
+    <HashRouter basename="/">
       <div className="demo-big-content">
         <Layout>
           <Header
@@ -36,6 +36,6 @@ export const App: React.FunctionComponent = () => {
           </Content>
         </Layout>
       </div>
-    </BrowserRouter>
+    </HashRouter>
   );
 };
