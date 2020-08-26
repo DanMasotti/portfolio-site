@@ -1,30 +1,31 @@
 {
   "files": {
     "main.css": "/portfolio-site/static/css/main.29b9ba6d.chunk.css",
-    "main.js": "/portfolio-site/static/js/main.f10bc41c.chunk.js",
-    "main.js.map": "/portfolio-site/static/js/main.f10bc41c.chunk.js.map",
+    "main.js": "/portfolio-site/static/js/main.6999fc24.chunk.js",
+    "main.js.map": "/portfolio-site/static/js/main.6999fc24.chunk.js.map",
     "runtime-main.js": "/portfolio-site/static/js/runtime-main.2d95e7a6.js",
     "runtime-main.js.map": "/portfolio-site/static/js/runtime-main.2d95e7a6.js.map",
     "static/css/2.e4346227.chunk.css": "/portfolio-site/static/css/2.e4346227.chunk.css",
-    "static/js/2.c185a993.chunk.js": "/portfolio-site/static/js/2.c185a993.chunk.js",
-    "static/js/2.c185a993.chunk.js.map": "/portfolio-site/static/js/2.c185a993.chunk.js.map",
+    "static/js/2.37b921ac.chunk.js": "/portfolio-site/static/js/2.37b921ac.chunk.js",
+    "static/js/2.37b921ac.chunk.js.map": "/portfolio-site/static/js/2.37b921ac.chunk.js.map",
     "index.html": "/portfolio-site/index.html",
-    "precache-manifest.baea00a6e2e47bfb3135f9f9be73c1ce.js": "/portfolio-site/precache-manifest.baea00a6e2e47bfb3135f9f9be73c1ce.js",
+    "precache-manifest.e4ebea92d6b83810db80a769d9be35d6.js": "/portfolio-site/precache-manifest.e4ebea92d6b83810db80a769d9be35d6.js",
     "service-worker.js": "/portfolio-site/service-worker.js",
     "static/css/2.e4346227.chunk.css.map": "/portfolio-site/static/css/2.e4346227.chunk.css.map",
     "static/css/main.29b9ba6d.chunk.css.map": "/portfolio-site/static/css/main.29b9ba6d.chunk.css.map",
-    "static/js/2.c185a993.chunk.js.LICENSE.txt": "/portfolio-site/static/js/2.c185a993.chunk.js.LICENSE.txt",
+    "static/js/2.37b921ac.chunk.js.LICENSE.txt": "/portfolio-site/static/js/2.37b921ac.chunk.js.LICENSE.txt",
     "static/media/dining_pic.jpg": "/portfolio-site/static/media/dining_pic.86294425.jpg",
     "static/media/gmres_out_anim.gif": "/portfolio-site/static/media/gmres_out_anim.eb12055e.gif",
     "static/media/mcmc.gif": "/portfolio-site/static/media/mcmc.185e127b.gif",
     "static/media/professional_pic.jpeg": "/portfolio-site/static/media/professional_pic.55dba31a.jpeg",
+    "static/media/settlers.gif": "/portfolio-site/static/media/settlers.d4ed67fa.gif",
     "static/media/vamp.gif": "/portfolio-site/static/media/vamp.4aa87dd1.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.2d95e7a6.js",
     "static/css/2.e4346227.chunk.css",
-    "static/js/2.c185a993.chunk.js",
+    "static/js/2.37b921ac.chunk.js",
     "static/css/main.29b9ba6d.chunk.css",
-    "static/js/main.f10bc41c.chunk.js"
+    "static/js/main.6999fc24.chunk.js"
   ]
 }
