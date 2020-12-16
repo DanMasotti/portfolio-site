@@ -12,7 +12,7 @@ import {
 const gmres = require("../media/gmres_out_anim.gif");
 const vamp = require("../media/vamp.gif");
 const mcmc = require("../media/mcmc.gif");
-const settlers = require("../media/settlers.gif");
+const raytracer = require("../media/raytracer.gif");
 
 export const Projects: React.FunctionComponent = (): JSX.Element => {
   return (
@@ -138,25 +138,24 @@ export const Projects: React.FunctionComponent = (): JSX.Element => {
               expand
               style={{
                 color: "#fff",
-                background: `url(${settlers}) center / cover`
+                background: `url(${raytracer}) center / cover`
               }}
             >
-              Settlers of Catan
+              GPU Ray-tracer
             </CardTitle>
             <CardText>
-              Settlers of Catan Java clone I started independently working on
-              shortly after completing my intro sequence on Object-Orientated
-              Programming. Occasionally, I'll revisit it to brush up on my Java
-              and add features.
+              Forked from my final project on GPU Ray tracing for my Computer
+              Graphics course. I wrote the entire ray tracer and scene
+              representation in a shader program.
             </CardText>
 
             <CardActions border>
               <Button colored>
                 <a
-                  href={"https://github.com/DanMasotti/settlers-of-catan-clone"}
+                  href={"https://github.com/DanMasotti/gpu-raytracer"}
                   style={{ textDecoration: "none" }}
                 >
-                  View Java Source code
+                  View C++ Source code
                 </a>
               </Button>
             </CardActions>
