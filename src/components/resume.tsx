@@ -9,7 +9,7 @@ export const Resume: React.FunctionComponent = (): JSX.Element => {
     <div>
       <Grid>
         <Cell col={4} rows={1} style={{ background: "#EDF0F4", padding: 5 }}>
-          <h2 style={{ paddingTop: "2em" }}> Dan Avedis Masotti </h2>
+          <h2 style={{ paddingTop: "2em" }}> Daniel Avedis Masotti </h2>
           <h4 style={{ color: "grey" }}>
             Software Developer with Mathematical Maturity
           </h4>
@@ -33,7 +33,7 @@ export const Resume: React.FunctionComponent = (): JSX.Element => {
             startYear={"September 2020"}
             endYear={"May 2021"}
             schoolName="Brown Univeristy - ScM. Computer Science"
-            schoolDescription="Coursework includes Robotics, Computer Graphics, 
+            schoolDescription="Coursework includes 3D Game Engine Development, Interactive Computer Graphics, 
             and Topics in 3D Computer Vision and Deep Learning"
           />
           <Education
@@ -41,14 +41,14 @@ export const Resume: React.FunctionComponent = (): JSX.Element => {
             endYear={"May 2020"}
             schoolName="Brown University - ScB. Applied Mathematics"
             schoolDescription="Coursework includes Computer Vision, 
-            Stochastic Differential Equations, and Recent Applications 
+            Machine Learning for Science, and Recent Applications 
             of Probability and Statistics "
           />
           <hr style={{ borderTop: "3px solid #FF6B6B" }} />
           <h2> Experience </h2>
           <Experience
-            startYear="June 2020"
-            endYear="August 2020"
+            startYear="February 2020"
+            endYear="Current"
             jobName="Independent Web Developer"
             jobDescription="Collaborated with another developer to build a modern, 
             web-based Digital Audio Workstation (DAW) with technologies such as React, 
@@ -75,10 +75,10 @@ export const Resume: React.FunctionComponent = (): JSX.Element => {
           <div>
             <h2> Programming Languages </h2>
             <Skills skill="Python" progress={80} />
-            <Skills skill="Java" progress={50} />
-            <Skills skill="JavaScript" progress={75} />
-            <Skills skill="C++" progress={60} />
-            <Skills skill="MatLab" progress={65} />
+            <Skills skill="Java" progress={40} />
+            <Skills skill="TypeScript" progress={60} />
+            <Skills skill="C++" progress={70} />
+            <Skills skill="MatLab" progress={40} />
           </div>
         </Cell>
       </Grid>

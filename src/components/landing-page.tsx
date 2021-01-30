@@ -1,6 +1,6 @@
 import React from "react";
 import { Grid, Cell } from "react-mdl";
-// import avatar from "./avatar.jpg";
+
 const profile = require("../media/professional_pic.jpeg");
 
 export const LandingPage: React.FC = (): JSX.Element => {
@@ -9,7 +9,7 @@ export const LandingPage: React.FC = (): JSX.Element => {
       <Grid className="landing-grid">
         <Cell col={12}>
           <h1 style={{ fontFamily: "Oxygen", color: "white" }}>
-            Dan Avedis Masotti
+            Daniel Avedis Masotti
           </h1>
           <img
             src={profile}
@@ -17,9 +17,9 @@ export const LandingPage: React.FC = (): JSX.Element => {
             alt={"profile"}
           />
           <div className="banner-text">
-            <h1>AI/ML, Computer Vision, Computer Graphics</h1>
+            <h1>Software Developer/Engineer</h1>
             <hr />
-            <p> Tensorflow, ReactJS, NodeJS, GraphQL, MongoDB </p>
+            <p> AI/ML, Computer Vision, Computer Graphics</p>
           </div>
         </Cell>
       </Grid>
