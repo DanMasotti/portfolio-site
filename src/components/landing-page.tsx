@@ -19,7 +19,7 @@ export const LandingPage: React.FC = (): JSX.Element => {
           <div className="banner-text">
             <h1>Software Developer/Engineer</h1>
             <hr />
-            <p> AI/ML, Computer Vision, Computer Graphics</p>
+            <p> 3D Data Science, Computer Graphics, AI/ML</p>
           </div>
         </Cell>
       </Grid>

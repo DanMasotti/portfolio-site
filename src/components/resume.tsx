@@ -11,13 +11,12 @@ export const Resume: React.FunctionComponent = (): JSX.Element => {
         <Cell col={4} rows={1} style={{ background: "#EDF0F4", padding: 5 }}>
           <h2 style={{ paddingTop: "2em" }}> Daniel Avedis Masotti </h2>
           <h4 style={{ color: "grey" }}>
-            Software Developer with Mathematical Maturity
+            3D Data Scientist and Graphics Software Engineer
           </h4>
           <hr style={{ borderTop: "3px solid #FF6B6B", width: "50%" }} />
           <p>
             I specialize in machine learning, numerical optimization, and
-            scientific computing. I'm especially motivated by problems in
-            computer vision, computer graphics, and artificial intelligence.
+            scientific computing with applications to visual computing.
           </p>
           <hr style={{ borderTop: "3px solid #FF6B6B", width: "50%" }} />
           <h5> Address </h5>
@@ -33,16 +32,16 @@ export const Resume: React.FunctionComponent = (): JSX.Element => {
             startYear={"September 2020"}
             endYear={"May 2021"}
             schoolName="Brown Univeristy - ScM. Computer Science"
-            schoolDescription="Coursework includes 3D Game Engine Development, Interactive Computer Graphics, 
-            and Topics in 3D Computer Vision and Deep Learning"
+            schoolDescription="Coursework includes 3D Game Engine Development (C++), Interactive Computer Graphics (C++), 
+            and Topics in 3D Computer Vision and Deep Learning (Python)"
           />
           <Education
             startYear={"September 2016"}
             endYear={"May 2020"}
             schoolName="Brown University - ScB. Applied Mathematics"
-            schoolDescription="Coursework includes Computer Vision, 
-            Machine Learning for Science, and Recent Applications 
-            of Probability and Statistics "
+            schoolDescription="Coursework includes Computer Vision (Python), 
+            Machine Learning for Science (Python), and Recent Applications 
+            of Probability and Statistics (Python/Matlab)"
           />
           <hr style={{ borderTop: "3px solid #FF6B6B" }} />
           <h2> Experience </h2>
@@ -75,9 +74,9 @@ export const Resume: React.FunctionComponent = (): JSX.Element => {
           <div>
             <h2> Programming Languages </h2>
             <Skills skill="Python" progress={80} />
-            <Skills skill="Java" progress={40} />
+            <Skills skill="Java" progress={30} />
             <Skills skill="TypeScript" progress={60} />
-            <Skills skill="C++" progress={70} />
+            <Skills skill="C++" progress={75} />
             <Skills skill="MatLab" progress={40} />
           </div>
         </Cell>
