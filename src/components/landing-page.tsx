@@ -17,9 +17,12 @@ export const LandingPage: React.FC = (): JSX.Element => {
             alt={"profile"}
           />
           <div className="banner-text">
-            <h1>Software Developer/Engineer</h1>
+            <h1>Software Engineer</h1>
             <hr />
-            <p> 3D Data Science, Computer Graphics, AI/ML</p>
+            <p>
+              {" "}
+              Computer Vision, Computer Graphics, and Artificial Intelligence{" "}
+            </p>
           </div>
         </Cell>
       </Grid>

@@ -46,6 +46,14 @@ export const Resume: React.FunctionComponent = (): JSX.Element => {
           <hr style={{ borderTop: "3px solid #FF6B6B" }} />
           <h2> Experience </h2>
           <Experience
+            startYear="April 2021"
+            endYear="Current"
+            jobName="Research Intern"
+            jobDescription="Continuing my work as a graduate student, I continued working 
+            on Simbiome, a lightweight Python framework for mixed dataset synthesis at Brown's 
+            Interactive 3D Vision and Learning Lab."
+          />
+          <Experience
             startYear="February 2020"
             endYear="Current"
             jobName="Independent Web Developer"

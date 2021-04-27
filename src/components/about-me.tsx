@@ -10,13 +10,11 @@ export const About: React.FunctionComponent = (): JSX.Element => {
       <div>
         <p style={{ display: "flex", padding: "2rem" }}>
           Leaving undergrad with an applied math background, I chose the
-          Artificial Intelligence and Machine Learning pathway as a CS masters
-          student. However, I fell in love with visual computing along the way.
-          Although I was a hobbyist 3D modeller/animator before graduate school,
-          I learned that computer graphics, inverse rendering, and building
-          tools/synthetic data for computer vision tasks using tools from
-          numerical linear algebra was something I really enjoyed and am good
-          at.
+          Artificial Intelligence and Machine Learning pathway for my CS
+          masters. However, I also fell in love with visual computing along the
+          way. Although I was a hobbyist 3D modeller/animator before graduate
+          school, I learned that combining these interests is incredibly useful
+          for the "inverse graphics" approach to computer vision.
         </p>
 
         <p style={{ display: "flex", padding: "2rem" }}>
@@ -24,7 +22,8 @@ export const About: React.FunctionComponent = (): JSX.Element => {
           environment simulator for mixed reality datasets (real and virtual
           objects). This context-aware mixed reality approach to data generation
           has the advantage of known labels for virtual objects from Shapenet,
-          for example, while also grounding our algorithms in real world scenes.{" "}
+          for example, while also grounding our algorithms in real world scenes,
+          thus avoiding domain gap.{" "}
         </p>
       </div>
 

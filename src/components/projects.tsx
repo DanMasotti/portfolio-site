@@ -9,10 +9,49 @@ const mcmc = require("../media/mcmc.gif");
 const raytracer = require("../media/raytracer.gif");
 const fem = require("../media/raining-spheres.gif");
 const path = require("../media/glass-mis-500SSP.png");
+const game = require("../media/game-engine.gif");
+const yarn = require("../media/yarn.gif");
 
 export const Projects: React.FunctionComponent = (): JSX.Element => {
   return (
     <div>
+      <Grid>
+        <Cell col={4}>
+          <Project
+            title={"3D Game Engine"}
+            img={game}
+            description={
+              "Graphics, collisions, acceleration data structures, pathfinding, behavior trees, and animation."
+            }
+            link={"https://github.com/DanMasotti/game-engine"}
+            linkText={"View Source Code"}
+          ></Project>
+        </Cell>
+        <Cell col={4}>
+          <Project
+            title={"Yarn Level Cloth Simulation"}
+            img={yarn}
+            description={
+              "For a team project in Interactive Computer Graphics, we implemented a yarn-level cloth simulation"
+            }
+            link={
+              "https://docs.google.com/presentation/d/1R5Ko5DY-fX-IInWS0ohWkv3RrySmYxiuGCixt7FOcSU/edit#slide=id.gc6f90357f_0_0"
+            }
+            linkText={"View Presentation"}
+          ></Project>
+        </Cell>
+        <Cell col={4}>
+          <Project
+            title={"GPU Raytracing"}
+            img={raytracer}
+            description={
+              "Forked from my final project on GPU Ray tracing for my Computer Graphics course. I wrote the entire ray tracer and scene representation in a shader program."
+            }
+            link={"https://github.com/DanMasotti/gpu-raytracer"}
+            linkText={"View Source Code"}
+          ></Project>
+        </Cell>
+      </Grid>
       <Grid>
         <Cell col={4}>
           <Project
@@ -36,42 +75,6 @@ export const Projects: React.FunctionComponent = (): JSX.Element => {
             linkText={"Request Source Code"}
           ></Project>
         </Cell>
-        <Cell col={4}>
-          <Project
-            title={"GPU Raytracing"}
-            img={raytracer}
-            description={
-              "Forked from my final project on GPU Ray tracing for my Computer Graphics course. I wrote the entire ray tracer and scene representation in a shader program."
-            }
-            link={"https://github.com/DanMasotti/gpu-raytracer"}
-            linkText={"View Source Code"}
-          ></Project>
-        </Cell>
-      </Grid>
-      <Grid>
-        <Cell col={4}>
-          <Project
-            title={"Vamp"}
-            img={vamp}
-            description={
-              "Vamp is a collaborative, web-based DAW I'm working on with a another software developer to make music recording fun and simple."
-            }
-            link={""}
-            linkText={"Coming soon!"}
-          ></Project>
-        </Cell>
-        <Cell col={4}>
-          <Project
-            title={"MCMC Codebreaking"}
-            img={mcmc}
-            description={"Using MCMC to break a substitution cipher"}
-            link={
-              "https://github.com/DanMasotti/MCMC-Codebreaking/blob/master/MCMC_Codebreaking.ipynb"
-            }
-            linkText={"See Jupyter Notebook"}
-          ></Project>
-        </Cell>
-
         <Cell col={4}>
           <Project
             title={"Large-scale Linear Algebra"}
